@@ -1,0 +1,12 @@
+.row{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.col-12{
+    display: grid;
+}
+h1{
+    font-size: 60px;
+    color: rgb(250, 248, 248);
+}

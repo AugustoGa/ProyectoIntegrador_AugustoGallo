@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    color: rgb(250, 248, 248);
+}
+.row{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 6fr 6fr;
+    box-shadow: 2px -2px 5px #999;
+}
+.contenedorProyect2, .contenedorProyect1{
+    display: inline-block;
+    text-align: center;
+}

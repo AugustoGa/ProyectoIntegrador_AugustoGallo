@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+}
+.row{
+    padding: 5%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+ul , h1{
+    color: rgb(250, 248, 248);
+}
