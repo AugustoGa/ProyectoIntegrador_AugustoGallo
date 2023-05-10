@@ -6,7 +6,9 @@
     text-align: left;
     display: grid;
     grid-template-columns: 6fr 6fr;
-    box-shadow: 2px -2px 5px #999;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 ul , h1{
     color: rgb(250, 248, 248);
