@@ -1,12 +1,29 @@
 .container{
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+    white-space: nowrap;
     display: grid;
+    gap: 1rem;
 }
 .row{
-    padding: 5%;
-    text-align: left;
+
+text-align: left;
     display: grid;
-    grid-template-columns: 6fr 6fr;
 }
-ul , h1{
+ul {
     color: rgb(250, 248, 248);
+    list-style: none;
+}
+h1{
+    color: rgb(250, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ZonaTrabajo{
+    display: grid;
+    gap: 3rem;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(30 , 1fr));
 }
