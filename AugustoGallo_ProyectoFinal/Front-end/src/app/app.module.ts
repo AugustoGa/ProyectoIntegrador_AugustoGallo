@@ -13,6 +13,11 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ConocimientosComponent } from './components/conocimientos/conocimientos.component';
+import { HttpClientModule} from "@angular/common/http";
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,12 +31,15 @@ import { ConocimientosComponent } from './components/conocimientos/conocimientos
     HysComponent,
     ProyectComponent,
     FooterComponent,
-    ConocimientosComponent
+    ConocimientosComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot()
+    NgCircleProgressModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
